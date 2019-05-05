@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.ResourceBundle;
 
 import RestAPIWeather.ErrorAlert;
+import RestAPIWeather.models.Weather;
 import RestAPIWeather.models.WeatherAPI;
 import RestAPIWeather.models.WeatherModel;
 import javafx.fxml.FXML;
@@ -74,7 +75,7 @@ public class MainController implements Initializable {
 
     private ArrayList<Label> allLabels;
     private ArrayList<ImageView> allIcons;
-    private WeatherAPI weatherRepository = new WeatherAPI();
+    private Weather weatherRepository = new WeatherAPI();
 
     @FXML
     public void currentBtGetClick() {
