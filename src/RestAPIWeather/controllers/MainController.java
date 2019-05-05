@@ -18,7 +18,6 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 public class MainController implements Initializable {
-    //OPEN WEATHER API KEY: 79aa469e0644e8e4dc65ff0a3f932a11
     @FXML
     private TextField currentFieldCity;
 
